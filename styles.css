@@ -13,7 +13,7 @@
     /* Text presets */
     --body-font-family: "Outfit", sans-serif;
     --text-preset-1: 1.375rem; 
-    --text-preset-2: 0.9375rem;
+    --text-preset-2: 0.938rem;
     --text-preset-1-weight: 700;
     --text-preset-2-weight: 400;
 }
@@ -51,6 +51,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 16rem;
+    height: 8.188rem;
     padding: 0 var(--spacing-200);
     gap: var(--spacing-200);
 
