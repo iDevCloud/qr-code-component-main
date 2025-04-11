@@ -38,32 +38,25 @@ main {
 .card {
     display: flex;
     flex-direction: column;
-    width: 20rem;
-    height: 31.18rem;
-    padding: var(--spacing-200);
+    width: 18rem;
+    height: 27.688rem;
+    padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
     background-color: var(--white);
     border-radius: 1.25rem;
     box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
-    gap: var(--spacing-300)
+    gap: var(--spacing-300);
 }
 
-img {
-    display: block;
-    border-radius: 0.625rem;
-}
-
-.text {
+.card__text {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
     padding: 0 var(--spacing-200);
-    margin-bottom: var(--spacing-300);
     gap: var(--spacing-200);
-    align-self: stretch;
-    height: 100%;
+
 }
 
-p {
+.card__description {
     text-align: center;
     color: var(--slate-500);
     font-size: var(--text-preset-2);
@@ -73,7 +66,8 @@ p {
     letter-spacing: 0.0125rem;
 }
 
-.text-highlight {
+.card__title {
+    text-align: center;
     color: var(--slate-900);
     font-size: var(--text-preset-1);
     font-family: var(--body-font-family);
@@ -81,3 +75,8 @@ p {
     line-height: 120%;
     letter-spacing: 0;
 }
+
+.card__image {
+    display: block;
+    border-radius: 0.625rem;
+}    
