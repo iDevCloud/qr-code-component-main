@@ -68,7 +68,6 @@ main {
     letter-spacing: 0.0125rem;
     width: 16rem;
     height: 3.938rem;
-    margin-bottom: 0.063rem;
 }
 
 .card__title {
@@ -81,7 +80,6 @@ main {
     font-weight: var(--text-preset-1-weight);
     line-height: 120%;
     letter-spacing: 0;
-    margin-bottom: 0.063rem;
 }
 
 .card__image {
