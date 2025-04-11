@@ -12,8 +12,8 @@
     /* Text configuration */
     /* Text presets */
     --body-font-family: "Outfit", sans-serif;
-    --text-preset-1: 22px;
-    --text-preset-2: 15px;
+    --text-preset-1: 1.375rem; 
+    --text-preset-2: 0.9375rem;
     --text-preset-1-weight: 700;
     --text-preset-2-weight: 400;
 }
@@ -34,8 +34,8 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    width: 18rem;
-    height: 27.7rem;
+    width: 20rem;
+    height: 31.18rem;
     padding: var(--spacing-200) var(--spacing-200) var(--spacing-500) var(--spacing-200);
     background-color: var(--white);
     border-radius: 1.25rem;
@@ -44,16 +44,18 @@ body {
 }
 
 img {
-    border-radius: 10px;
+    display: block;
+    border-radius: 0.625rem;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px var(--spacing-200);
+    padding: 0 var(--spacing-200);
     gap: var(--spacing-200);
     align-self: stretch;
+    height: 100%;
 }
 
 p {
@@ -62,8 +64,6 @@ p {
     font-size: var(--text-preset-2);
     font-family: var(--body-font-family);
     font-weight: var(--text-preset-2-weight);
-    margin: auto;
-    height: auto;
     line-height: 140%;
     letter-spacing: 0.0125rem;
 }
@@ -73,4 +73,6 @@ p {
     font-size: var(--text-preset-1);
     font-family: var(--body-font-family);
     font-weight: var(--text-preset-1-weight);
+    line-height: 120%;
+    letter-spacing: 0;
 }
