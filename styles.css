@@ -66,6 +66,8 @@ p {
     font-family: var(--body-font-family);
     font-weight: var(--text-preset-2-weight);
     margin: 0;
+    line-height: 140%;
+    letter-spacing: 0.0125rem;
 }
 
 .text-highlight {
